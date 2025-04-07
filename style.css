@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+h2 {
+    font-family: 'Knewave';
+}
+
+h3, h4, p, li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+}
+
+body {
+    background-image: url("img/somali_semidesert_bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 20px;
+}
+
+header { /* fix header to top*/
+    font-family: 'Knewave';
+    font-size: 30px;
+    color:#ffffff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+header .title{
+    text-align: center;
+}
+
+.home {
+    display: flex;
+    width: 80%;
+    margin: 0 auto; /* center and push down */
+    margin-top: 20px;
+    
+    
+    
+    min-height: 1000px;
+}
+
+.home-image {
+    flex: 1;
+    opacity: 1;
+}
+
+.home-image img{
+    position: fixed;
+    width: 40%;
+    height: auto;
+    opacity: 1;
+}
+
+.home-text {
+    /*contains form, title and body of text*/
+    background: rgba(250, 255, 244, 0.829); /* semi-transparent white */
+    box-shadow: 0 0 50px 5px #eefdee;
+    flex: 1;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    border-radius: 25px;
+}
+
+.input-row {
+    display: flex;
+    align-items: center; /* vertically aligns them if needed */
+    flex-wrap: wrap;     /* optional: makes it responsive on small screens */
+  }
+
+  input[type=text] {
+    background-color: rgb(228, 225, 225);
+    border: none;
+    text-decoration: none;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    width: 70%;
+  }
+
+  input[type=submit]{
+    background-color: rgb(224, 166, 90);
+    border: none;
+    text-decoration: none;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Sora', sans-serif;
+    font-style: italic;
+  }
+
+nav {
+    float: left;
+    position: relative;
+    background: transparent;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    position: relative;
+    width: 70px;
+    cursor: pointer;
+    background: rgb(248, 233, 236);
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin: 10px 0; 
+  }
+  
+  nav ul li > div {
+      display: inline-block;
+      padding: 25px 0;
+      background: transparent;
+  }
+  
+  nav ul li div { 
+    position: relative; 
+}

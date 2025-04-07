@@ -1,0 +1,10 @@
+learn somali v0
+purpose: to assist in structuring and learning somali. there are a lack of online resources to learn afroasiatic languages.
+target audience: east african diaspora, anyone interested in learning a cushitic language
+v0 is just the front end design
+v1 will be a translator/resource app, incorporate gemini to assist with translation, react/tailwind/mongodb with user auth/sign-in to store notes
+future goals: include other cushitic/afroasiatic languages such as amharic, oromo, afar, beja, tigrinia
+
+design:
+background/avatar image credit: chatgpt
+favicon: favicon.io from twemoji (replace at some point)
